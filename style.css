@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -93,4 +93,16 @@ body {
 .wind {
   font-size: 28px;
   margin-top: 6px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  display: none;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  color: rgb(159, 43, 43);
 }
